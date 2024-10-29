@@ -1,21 +1,18 @@
-import { Text, StyleSheet, View } from 'react-native'
+import { Text, StyleSheet, View, SafeAreaView } from 'react-native'
 import React, { Component } from 'react'
 
 export default class index extends Component {
   render() {
     return (
-      <View  style={styles.container}>
-
-        <Text >index</Text>
-      </View>
+      <SafeAreaView className="flex-1 justify-center items-center">
+        
+          <Text>Hell Woeld!</Text>
+        
+      </SafeAreaView>
     )
   }
 }
 
 const styles = StyleSheet.create({
-    container: {
-        alignItems:'center',
-        justifyContent:'center',
-        flex:1,
-    }
+
 })
