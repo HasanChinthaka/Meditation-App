@@ -12,7 +12,7 @@ const GuidedAffirimationGallery = ({ title, previews }: GuidedAffirimationGaller
     return (
         <View className='my-5'>
             <View className='mb-5'>
-                <Text className='text-white font-bold text-2xl'>{title}</Text>
+                <Text className='text-white font-bold text-3xl'>{title}</Text>
             </View>
             <FlatList
                 data={previews}

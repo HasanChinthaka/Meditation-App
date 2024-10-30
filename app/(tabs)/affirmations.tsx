@@ -9,7 +9,7 @@ const Affirmations = () => {
         <View className="flex-1">
             <AppGradient colors={["#2e1f58", "#54426b", "#a790af"]}>
                 <ScrollView showsVerticalScrollIndicator={false} className='mt-5'>
-                    <Text className='text-zinc-50 text-3xl font-bold mt-5'>
+                    <Text className='text-zinc-50 text-4xl font-bold mt-8 mb-8'>
                         Change your belief with affirmations
                     </Text>
                     {AFFIRMATION_GALLERY.map((g) => (
