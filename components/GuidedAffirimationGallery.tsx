@@ -20,8 +20,8 @@ const GuidedAffirimationGallery = ({ title, previews }: GuidedAffirimationGaller
                 keyExtractor={(item) => item.id.toString()}
                 horizontal
                 renderItem={({ item }) => (
-                    <Link href={{ pathname: '/(tabs)/affirmations', params: { id: item.id } }} asChild>
-                        <Pressable onPress={() => console.log('Pressed!')}>
+                    <Link href={`/affirmations/${item.id}`} asChild>
+                        <Pressable>
                             <View>
                                 <Image
                                     source={item.image} // Ensure item.image is valid
