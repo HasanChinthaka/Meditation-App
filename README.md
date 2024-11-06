@@ -2,7 +2,8 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Download <a href="https://drive.google.com/file/d/1PvPjIVeUoI3rBw88KPyXu5oWMjfTvz_R/view?usp=sharing" >here</a> demo app
+[![Download Demo App Here](https://img.shields.io/badge/Download-Demo%20App-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1PvPjIVeUoI3rBw88KPyXu5oWMjfTvz_R/view?usp=sharing)
+
 ## Get started
 
 1. Install dependencies
